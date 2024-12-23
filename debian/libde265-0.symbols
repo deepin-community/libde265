@@ -3,7 +3,6 @@ libde265.so.0 libde265-0 #MINVER#
  (optional|c++|regex)"^std::_Sp_counted_base<.*@Base$" 1.0.2
  (optional|c++|regex)"^std::_Sp_counted_ptr<.*@Base$" 1.0.3
  (optional|c++|regex)"^std::_Sp_make_shared_tag.*@Base$" 1.0.4
- (optional|c++|regex)"^std::_Vector_base<.*@Base$" 1.0.7
  (optional|c++|regex)"^std::__cxx11::basic_stringbuf<.*@Base$" 1.0.2
  (optional|c++|regex)"^std::vector<.*@Base$" 1.0.2
  (optional|c++|regex)"^typeinfo for std::.*@Base$" 1.0.2
@@ -75,4 +74,3 @@ libde265.so.0 libde265-0 #MINVER#
  (optional=only used internally by sherlock265)draw_TB_grid@Base 0.8
  (optional=only used internally by sherlock265)draw_Tiles@Base 0.8
  (optional=only used internally by sherlock265)draw_intra_pred_modes@Base 0.8
- (optional=only used by the non-final encoder api|regex)en265_.*@Base 1.0.2
