@@ -1,3 +1,16 @@
+libde265 (1.0.16-1) unstable; urgency=medium
+
+  * d/control: Change "Uploaders" to use my @debian.org address.
+  * New upstream version 1.0.16
+  * Refresh patches for new upstream version.
+  * d/control: Migrate from "pkg-config" to "pkgconf".
+  * Bump "Standards-Version" to 4.7.2
+  * d/copyright: Remove entry for file no longer present in upstream tarball.
+  * Ignore internal std:: symbol.
+  * d/rules: Check "DEB_BUILD_OPTIONS" before running tests.
+
+ -- Joachim Bauch <fancycode@debian.org>  Tue, 13 May 2025 09:32:27 +0200
+
 libde265 (1.0.15-1) unstable; urgency=medium
 
   * New upstream version 1.0.15
